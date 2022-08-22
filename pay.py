@@ -9,5 +9,5 @@ try:
         print('Pay =', pay)
 
 except Exception as e:
-    print("Error has occurred", e)
+    print("Error, please enter numeric input: ", e)
 

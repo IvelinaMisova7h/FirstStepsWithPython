@@ -1,0 +1,2 @@
+score = float('Input score: ')
+
