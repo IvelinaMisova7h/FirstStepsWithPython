@@ -13,4 +13,4 @@ try:
     else:
         print("Please input score between 0.1 and 1.0!")
 except:
-    print("Error!")
+    print("Error! ")
