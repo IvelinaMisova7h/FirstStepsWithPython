@@ -24,4 +24,8 @@ while True:
     num_list.append(value)
 
 average = sum(num_list) / len(num_list)
+max_number = max(num_list)
+min_number = min(num_list)
+print('Max number is: ', max_number)
+print('Min number is: ', min_number)
 print('Average: ', average)
