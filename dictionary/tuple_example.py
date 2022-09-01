@@ -17,9 +17,9 @@ for line in file_handle:
 # print(di)
 
 tmp = list()
-for k,v in di.items():
+for k, v in di.items():
     # print(k,v)
-    new_tuple = (v,k)
+    new_tuple = (v, k)
     tmp.append(new_tuple)
 
 # print('Flipped: ', tmp)
@@ -27,5 +27,5 @@ for k,v in di.items():
 tmp = sorted(tmp, reverse=True)
 # print('Sorted: ', tmp[:5])
 
-for v,k in tmp[:5]:
-    print(k,v)
+for v, k in tmp[:5]:
+    print(k, v)
